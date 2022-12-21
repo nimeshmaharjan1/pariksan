@@ -1,4 +1,5 @@
 import '../styles/globals.scss'
+import '../styles/horizontal-scrolling/index.scss'
 import type { AppProps } from 'next/app'
 import { NextPage } from 'next';
 
