@@ -4,6 +4,7 @@ import { NextPage } from 'next';
 
 import { ThemeProvider } from 'next-themes'
 
+
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
   getLayout?: (page: React.ReactElement) => React.ReactNode;
 };
