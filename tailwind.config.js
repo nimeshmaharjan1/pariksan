@@ -62,7 +62,7 @@ module.exports = {
       black: '#000000',
     },
   },
-  plugins: [require('daisyui')],
+  plugins: [require('daisyui'), require('tailwindcss-neumorphism')],
   daisyui: {
     styled: true,
     base: true,

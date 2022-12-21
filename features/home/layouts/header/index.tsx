@@ -9,10 +9,10 @@ const HomeHeader = () => {
     }, [])
     if (!isMounted) return
     return (
-        <header className='wrapper h-20 shadow'>
+        <header className='wrapper h-[5rem] shadow'>
             <div className="container grid grid-cols-12 items-center h-full gap-1">
                 <section className="logo col-span-9">
-                    <button className='btn btn-ghost h-12 font-bold text-2xl gap-2'>
+                    <button className='btn btn-ghost h-12 font-bold text-2xl gap-2 text-primary'>
                         <MainLogo></MainLogo>
                         Pariksan</button>
                 </section>
