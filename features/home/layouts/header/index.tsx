@@ -4,11 +4,6 @@ import { RevealWrapper } from 'next-reveal';
 import React, { useEffect, useState } from 'react';
 
 const HomeHeader = () => {
-  const [isMounted, setIsMounted] = useState(false);
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-  if (!isMounted) return;
   return (
     <RevealWrapper
       origin="top"
