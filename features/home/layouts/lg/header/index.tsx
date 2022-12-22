@@ -16,7 +16,7 @@ const HomeHeader = () => {
     >
       <div className="container grid grid-cols-12 items-center h-full gap-1">
         <section className="logo col-span-9">
-          <button className="btn btn-ghost h-12 font-bold text-2xl gap-2 text-primary">
+          <button className="btn btn-ghost h-12 font-bold text-3xl gap-2 text-primary">
             <MainLogo></MainLogo>
             Pariksan
           </button>

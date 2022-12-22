@@ -6,7 +6,7 @@ const HomeFooter = () => {
     <>
       {' '}
       <footer className="container drop-shadow-lg border-t-2">
-        <div className=" grid grid-cols-12  py-16">
+        <div className=" grid grid-cols-12 py-16">
           <div className="col-span-3 flex items-center justify-start">
             <button className="btn btn-ghost h-12 font-bold text-2xl gap-2 text-primary">
               <MainLogo></MainLogo>
